@@ -1,0 +1,26 @@
+{
+  "name": "data-string-parser",
+  "version": "0.1.0",
+  "description": "Parses strings with 'key: value' pairs into shallow objects.",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha ./test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nbostrom/data-string-parser.git"
+  },
+  "keywords": [
+    "html5",
+    "data",
+    "parser"
+  ],
+  "author": "Niklas Boström",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nbostrom/data-string-parser/issues"
+  },
+  "devDependencies": {
+    "mocha": "~1.17.1"
+  }
+}
