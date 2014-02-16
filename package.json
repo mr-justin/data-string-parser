@@ -2,7 +2,7 @@
   "name": "data-string-parser",
   "version": "0.1.0",
   "description": "Parses strings with 'key: value' pairs into shallow objects.",
-  "main": "index.js",
+  "main": "data-string-parser.js",
   "scripts": {
     "test": "./node_modules/mocha/bin/mocha ./test"
   },

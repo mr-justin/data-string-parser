@@ -1,5 +1,5 @@
 var assert = require('assert');
-var parse = require('../index.js');
+var parse = require('../data-string-parser.js');
 
 describe('Parser', function () {
   it('handles keys surrounded in single quotes', function () {
