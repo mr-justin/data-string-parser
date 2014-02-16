@@ -1,6 +1,6 @@
 {
   "name": "data-string-parser",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Parses strings with 'key: value' pairs into shallow objects.",
   "main": "data-string-parser.js",
   "scripts": {
