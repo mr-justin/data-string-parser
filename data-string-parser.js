@@ -56,7 +56,7 @@
         value = parts.join(':');
 
         value = trim(value);
-        strippedValue = value.replace(stripQuotesHelper, '');
+        strippedValue = stripSurroundingQuotes(value);
         hasQuotes = (strippedValue !== value);
         value = strippedValue;
 
