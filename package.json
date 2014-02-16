@@ -15,7 +15,11 @@
     "data",
     "parser"
   ],
-  "author": "Niklas Boström",
+  "author": {
+    "name": "Niklas Boström",
+    "email": "nbostrom@gmail.com",
+    "url": "http://nibos.se"
+  },
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/nbostrom/data-string-parser/issues"
