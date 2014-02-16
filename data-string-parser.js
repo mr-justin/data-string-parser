@@ -11,9 +11,10 @@
   }
 }(this, function () {
   var stripQuotesHelper = /^'|^"|'$|"$/g;
+  var trimHelper = /^\s+|\s+$/g;
 
   function trim (str) {
-    return str.replace(/^\s+|\s+$/g, '')
+    return str.replace(trimHelper, '')
   }
 
   function stripSurroundingQuotes (str) {
