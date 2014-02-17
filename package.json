@@ -4,7 +4,8 @@
   "description": "Parses strings with 'key: value' pairs into shallow objects.",
   "main": "data-string-parser.js",
   "scripts": {
-    "test": "./node_modules/mocha/bin/mocha ./test"
+    "test": "./node_modules/mocha/bin/mocha test",
+    "specs": "./node_modules/mocha/bin/mocha -R markdown > SPECS.md "
   },
   "repository": {
     "type": "git",
